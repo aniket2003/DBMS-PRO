@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body{
+    font-family: 'Quicksand', sans-serif;
+  /*  background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));          */
+  background: linear-gradient(to right, rgb(177 140 217), #2d83d8)
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 10%;
+  /*  background-color: #2C3E50;          */
+  /* background: linear-gradient(to right,rgb(0 0 0), rgb(149 149 149)); */
+    justify-content: space-between;
+}
+
+.logo{
+    color: #FFF;
+    font-weight: 900;
+    font-size: 32px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+nav ul li a{
+    color: #FFF;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 1px;
+}
+
+nav ul li a:hover{
+    color: rgba(37, 117, 252, 1);
+}
+
+.cta{
+    background-color: rgba(37, 117, 252, 1);
+    color: #FFF;
+}
+
+.cta:hover{
+    background-color: rgba(37, 117, 252, 1);
+    color: #FFF;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+    background: linear-gradient(to right, rgb(0 0 0), rgb(149 149 149));
+	  /*  background-color: #2C3E50;     */
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+  color: #fff;
+}
+
+.gradient-custom {  
+    background: #6a11cb;
+    /* background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1)); */
+    background: linear-gradient(to right, rgb(177 140 217), #2d83d8)
+    }
+
+.frm{
+    position: relative;
+}
+
+
+
+.label1{
+position: relative;
+right: 245px;
+}
+
+.label2{
+    position: relative;
+    right: 226px;
+    
+}
+
+.label3{
+        position: relative;
+        right: 245px;
+        
+}
+
+.label4{
+    position: relative;
+    right: 226px;
+}
+
+.label5{
+    position: relative;
+    right:239px;
+}
+.label6{
+    position: relative;
+    right: 222px;
+}
+
+
+
+
+.total2{  
+    left: 470px;
+    bottom: 104px;
+}
+.total3{
+    bottom: 70px;
+}
+.total4{
+    left: 470px;
+    bottom: 174px;
+}
+.total4{
+    left: 469px;
+}
+.total5{
+    left: 0px;
+    bottom: 158px;
+}
+.total6{
+    bottom: 261px;
+    left: 469px;
+}
+
+
+.head{
+    position: relative;
+}
+
+.wid{
+    width: 71.666667%;
+}
+.lgn{
+position: relative;
+bottom: 131px;
+}
+.already{
+position: relative;
+bottom: 241px;
+}
+
+
+
+
+
+.studentlogbutton{
+    position: relative;
+    top: 111px;
+    left: 202px;
+    width: 210px;
+    height: 158px;
+    border-radius: 29px; 
+    background-color:  rgba(37, 117, 252, 1);
+    color: #FFF;
+}
+
+.studentlogbutton:hover{
+    width: 10%;
+    height: 20%;
+    background-color: rgba(106, 17, 203, 1);
+}
+
+
+
+
+.quiznamebtn{
+    display: flex;
+    flex-direction: column;
+    margin: 18px;
+    border-radius: 5px;
+    width: 500px;
+    -webkit-box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.25);
+    -moz-box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.25);
+    box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.2);
+    transition: 0.5s;
+    width: 200px;
+    height: 158px;
+    padding-top: 62px;
+    padding-right: 0px;
+    padding-left: 23px;
+    color: #FFF;
+    background-color: rgb(146 59 241);
+    border: solid black;
+    font-size: x-large;
+
+
+}
+
+
+
+.quiznamebtn:hover {
+    -webkit-box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.5);
+    -moz-box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.5);   
+    box-shadow: 2px 2px 5px 2px rgba(82, 81, 85, 0.35);
+    transform: translateY(-5px);
+}
+
+
+.quizname{
+    display: flex;
+    position: relative;
+    width: 1300px;
+    left: 124px;
+    height: 456px;
+}
+
+
+.congrats{
+    position: relative;
+    border: solid violet;
+    height: 200px;
+    padding-top: 50px;
+    padding-left: 8px;
+    left: 428px;
+    width: 661px;
+    top: 149px;
+    color: floralwhite;
+}
+
+
+.logoheader{
+    padding-left: 12px;
+    position: relative;
+    padding-bottom: 0px;
+    bottom: 79px;
+}
+
+.home_middle{
+    position: relative;
+    display: flex;
+}
+.infoheader{
+    padding-top: 164px;
+    padding-left: 170px;
+}
